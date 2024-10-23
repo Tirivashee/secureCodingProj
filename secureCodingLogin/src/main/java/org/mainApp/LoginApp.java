@@ -13,10 +13,10 @@ public class LoginApp {
             System.out.println("Welcome! Choose an option:");
             System.out.println("1. Sign Up");
             System.out.println("2. Login");
-            System.out.println("3. Exit"); // Add an exit option
+            System.out.println("3. Exit"); 
             System.out.print("Enter choice: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // consume newline
+            scanner.nextLine(); 
 
             if (choice == 1) {
                 signUp(scanner);
@@ -24,12 +24,12 @@ public class LoginApp {
                 login(scanner);
             } else if (choice == 3) {
                 System.out.println("Exiting application.");
-                break; // Exit the loop
+                break; 
             } else {
                 System.out.println("Invalid choice.");
             }
         }
-        scanner.close(); // Close the scanner
+        scanner.close(); 
     }
 
     private static void signUp(Scanner scanner) {
