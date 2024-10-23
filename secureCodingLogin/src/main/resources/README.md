@@ -1,5 +1,5 @@
-# Secure Login Application
-
+## Tirivashe Chitanda
+**H230708Z**
 ## Overview
 
 The **Secure Login Application** is a Java-based application that provides secure user registration and login functionality. It emphasizes secure coding practices, protecting sensitive user data, and adhering to OWASP Top 10 security principles. The application utilizes SQLite for database management and SHA-256 for password hashing.
@@ -21,5 +21,5 @@ The **Secure Login Application** is a Java-based application that provides secur
 
 ## Installation
 
-   git clone https://github.com/yourusername/SecureLoginApp.git
+   git clone https://github.com/Tirivashee/secureCodingProj.git
    cd SecureLoginApp
